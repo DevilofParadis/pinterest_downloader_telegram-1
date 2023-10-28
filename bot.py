@@ -21,7 +21,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-APP_ID = os.environ.get("APP_ID", "25374144")
+APP_ID = os.environ.get("APP_ID", 25374144)
 APP_HASH = os.environ.get("APP_HASH", "4f1efaef6551e30c5fa3a7b9dac7cf8e")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "6116413872:AAHwJ-3a2oefzMhTHsVE6ppbrirUY2K5488")
 TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
