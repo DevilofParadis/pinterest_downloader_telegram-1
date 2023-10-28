@@ -28,7 +28,7 @@ TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/"
 MONGO_DB = os.environ.get("MONGO_DB", "mongodb+srv://eryn:eryn123@eryn.awssizw.mongodb.net/?retryWrites=true&w=majority")
 # type yout telegram id or username
 LOG = os.environ.get("LOG", None)
-ADMIN = os.environ.get("ADMIN", "5821581983")
+ADMIN = os.environ.get("ADMIN", 5821581983)
 
 
 bot = TelegramClient("pinterestbot", APP_ID, APP_HASH).start(bot_token=BOT_TOKEN)
